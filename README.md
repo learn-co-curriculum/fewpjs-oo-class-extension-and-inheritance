@@ -96,7 +96,7 @@ bird.fly(); // Tiki flies away!
 ```
 
 In addition to _inheriting_ the functionality of the `Pet` class, each "child"
-class extending the functionality of the parent. For example, `Bird` has an
+class is extending the functionality of the parent. For example, `Bird` has an
 additional method called `fly` that is unique to it, and not present on `Pet`.
 `Bird` can still call `speak()`.
 
